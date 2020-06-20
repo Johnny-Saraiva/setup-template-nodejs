@@ -24,5 +24,6 @@
       "@config/*": ["config/*"],
       "@shared/*": ["shared/*"]
     },
-  }
+  },
+  "exclude": ["jest.config.js", "node_modules", "prettier.config.js", "coverage"]
 }
